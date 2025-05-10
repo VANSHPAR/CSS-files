@@ -1,0 +1,27 @@
+
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+         h1{
+            color: blueviolet;
+            background-color: goldenrod;
+         }
+         p{
+             color:antiquewhite;
+             background-color: black;
+
+         }
+         #heading{
+            color: white;
+         }
+         #main-type{
+            font-size: 60px;
+            background-color: brown;
+         }
+         .title{
+            background-color: chocolate;
+            color: azure;
+         }
+         h1,h2,h3,h5,p{
+            font-style: oblique;
+         }
