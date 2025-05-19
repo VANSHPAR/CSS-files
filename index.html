@@ -3,13 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Demo</title>
+    <title>Course Hub</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <!-- inline css -->
-    <h1 style="color:blueviolet;background-color: blue;font: size 80px;">CSS demo</h1>
-    <p style="color:antiquewhite;background-color: black;">Want to learn CSS the easy way? You're in the right place!
-        In this free CSS crash course, we’ll cover everything you need to know — from the basics to advanced concepts — in just one video. No fluff, no time-wasting. Just pure, beginner-friendly CSS tutorials explained in a simple and practical way.
-        </p>
+    <header>
+      <div class="nav-container">
+        <nav>
+            <div class="logo">
+             <img src="./graduation-cap-solid.svg" alt="">
+              <p>Course Hub</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-button">
+               <a href="#login" class="login-btn">Login</a>
+               <a href="register" class="register-btn">Register</a>
+            </div>
+        </nav>
+      </div>
+      </header>
+      <section id="hero" class="hero">
+          <div class="hero-content">
+               <h1>Welcome to Course Hub</h1>
+               <p>Your Ultimate Guide to College Sucess</p>
+               <a href="youtube.com"  class="btn">Subscribe Now</a>
+          </div>
+          <div class="featured-courses">
+               <h2>Featured Courses</h2>
+               <div class="course-grid">
+                <div class="course-card">
+                  <div class="course-img">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Web Devlopment</h3>
+                  <p>Learn HTML, CSS, and JavaScript</p>
+                  <span class="course-duration">12 weeks</span>
+                </div>
+                <div class="course-card">
+                   <div class="course-img">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Web Devlopment</h3>
+                  <p>Learn HTML, CSS, and JavaScript</p>
+                  <span class="course-duration">12 weeks</span>
+                </div>
+                <div class="course-card">
+                   <div class="course-img">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Web Devlopment</h3>
+                  <p>Learn HTML, CSS, and JavaScript</p>
+                  <span class="course-duration">12 weeks</span>
+                </div>
+                <div class="course-card">
+                   <div class="course-img">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Web Devlopment</h3>
+                  <p>Learn HTML, CSS, and JavaScript</p>
+                  <span class="course-duration">12 weeks</span>
+                </div>
+               </div>
+          </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-content">
+          <h2>About Course Hub</h2>
+          <p>Course Hub is a platform dedicated to helping student navigate their college
+            journey,We provide valuable insights, tips, and guidance on various aspects of college life, academics,
+            and carrier devlopement 
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <i class="fas fa-users"></i>
+              <h3>1M+</h3>
+              <p>Subscribers</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-users"></i>
+              <h3>1M+</h3>
+              <p>Subscribers</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-users"></i>
+              <h3>1M+</h3>
+              <p>Subscribers</p>
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
 </body>
 </html>
